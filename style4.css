@@ -1,0 +1,53 @@
+*{
+    background-color: rgb(228, 226, 165);
+}
+h1{
+    /*background-color: blueviolet;*/
+    text-decoration: underline;
+    font-weight: 500;
+    font-family: "Fredoka", sans-serif;
+}
+.recipe-card {
+    width: 90%; /* Adjust the width as necessary, or use a fixed width like 800px */
+    max-width: 800px; /* Maximum width of the card */
+    background-color: #d5e762; /* Background color of the card */
+    margin: 20px auto; /* Top and bottom margin with auto side margins for center alignment */
+    padding: 20px; /* Padding inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect for depth */
+    border-radius: 10px; /* Rounded corners */
+    border: 10px solid #b067aa; /* Light grey border */
+}
+body {
+    /*border: 20px solid #b067aa; /* Change the color, style, and thickness as needed */
+    margin: 20px; /* This ensures there's a bit of space between the border and the edge of the viewport */
+    padding: 20px; /* This adds some space between the border and your page's content */
+    
+}
+ img{
+    border: 4px solid rgb(178, 91, 178);
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+.img {
+    display: block; /* This can help remove bottom space under the image */
+    width: 500px; /* Adjust as needed */
+    height:100px; /* Adjust as needed */
+}
+.nutrition-table {
+    border-collapse: collapse; /* Correct usage for tables to collapse border */
+    width: 40%; /* Optional: Set a width to the table */
+    margin: 20px; /* Center the table horizontally */
+}
+
+.nutrition-table td, .nutrition-table th {
+    padding: 5px; /* Applies padding inside each cell */
+    border: 1px solid #b776d5; /* Adds a light border around each cell */
+    text-align: left; /* Aligns the text to the left; can be adjusted as needed */
+}
+
+/* Optional: Add a header style for better distinction */
+.nutrition-table th {
+    /*background-color: #f2f2f2; /* Light background color for the header */
+    color: #333; /* Color of the text in the header */
+}
