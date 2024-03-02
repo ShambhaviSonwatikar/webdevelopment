@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #0f2027, #203a43, #3b5d6b);
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 2em; 
+}
+
+.calculator {
+    display: inline-block;
+    border: 5px solid #888;
+    border-radius: 16px;
+    padding: 20px;
+    background-color: #68a7d4; /* Dark background for contrast */
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.5); /* More pronounced shadow */
+}
+
+input[type="text"] {
+    width: 320px;
+    margin: 10px auto;
+    padding: 10px;
+    background: #34346e; /* Darker shade for input */
+    box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.3); /* Inset shadow for depth */
+    font-size: 24px;
+    text-align: right;
+    border: 2px solid #555;
+    border-radius: 8px;
+    color: #ffffff;
+    outline: none;
+}
+
+input::placeholder {
+    color: #d1d1d1; /* Lighter color for placeholder text */
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #5e81a5; /* Subtle background color */
+    color: #f5f6fa;
+    font-size: 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out; /* Smooth transition for interaction */
+}
+
+button:hover {
+    background-color: #f5f6fa; /* Light background on hover */
+    color: #576574; /* Dark text on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.equalBtn {
+    background-color: #ff793f; /* Bright color for equal button */
+}
+
+.equalBtn:hover {
+    color: #f38759;
+    background-color: #f5f6fa;
+}
+
+.operator {
+    color: #cbe137; /* Different color for operators for distinction */
+}
